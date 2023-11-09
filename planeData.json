@@ -1,0 +1,653 @@
+{
+  "K3Ri7": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1B","2D","3F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["4B","4D","5B","5D","6B","6D","7B","7D"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8B","9D","10F"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 14
+  },
+  "J6Fh2": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1B","2C","2D","3B"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["4B","5A","5B","6B","7D","7E"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8A","9D"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 12
+  },
+  "T9Cs3": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1A","1C","2F","3E"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["5B","5C","5E","7D","7F"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8E","8F","9A","9D","10D","10F"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 15
+  },
+  "P7Qm1": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1A","2C","3D","3F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["4A","4E","5E","5F","6A","7D","7F"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8E","9B","9C","10B"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 15
+  },
+  "F8Jk9": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1C","1F","2D","3E"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["4A","4B","4C","5E","6A","6F"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8A","8D","9A","9B","10B","10D"],
+      "window_price": 100,
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 16
+  },
+  "N2Po6": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1B","2D","3F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["4B","4C","4D","5A","5B","6B","6D","6E","6F","7A","7B"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8A","8E","9B","9C","9D","10D"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 20
+  },
+  "T1Lg8": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1C","1D","1F","2C","2D","3B","3F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["4A","4B","4C","4F","5E","5F","6A","6C","6D"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8C","9B"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 18
+  },
+  "B2Dq3": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1A","1C","1D","2C","2D","3B"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["4D","4E","5C","6E"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8A","8D","8F","9B","10B","10E","10F"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 17
+  },
+  "W5Es4": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1A","1C","2C","2D","2E","2F","3B"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["4B","4C","4D","4E","7D","7E","7F"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8D","8E","8F","10D","10E","10F"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 20
+  },
+  "Y9La8": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1A","1C","2A","2B","2D","2F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["4D","4E","6E","7D"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8D","8E","10F"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 13
+  },
+  "R4Wt6": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1D","2E","3A","3B","3D","3F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["6B","7A","7B","7C"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8D","10D"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 12
+  },
+  "S3Jn2": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["2C","2E","2F","3A","3B"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["4B","4D","4F","5B","5C","7E"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8A","8B","8C","8D","8E","8F","9A","9B","9C"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 20
+  },
+  "E3Jd7": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1B","2A","2B","2C","3C","3D","3F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["5A","5B","5C","5D","5E","5F","6A","6B","6C","6D","6E","6F","7A","7B","7D"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8F","9B","9C","10D"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 26
+  },
+  "X1Zq4": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1B","2C","3B","3F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["5A","5B","5C","6C","7A","7B","7D"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8F","9B","9C","10A","10B","10D"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 17
+  },
+  "G7Bp5": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1B","1D","1E","1F","2B","2C","3D","3F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["5A","5D","5E","5F","6D","6E","7D","7E","7F"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8D","9A","9C","9D","10B"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 20
+  },
+  "M6Qr9": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["2D","2E","2F","3A"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["5A","5F","6B","6F","7B","7D"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8F","9B","10A"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 13
+  },
+  "D5Fk7": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1B","2F","2D","3A","3D","3F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["5D","5E","6B","6F","7A","7F"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8D","8F","9A","9D","9F"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 17
+  },
+  "V3Sp1": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1A","2B","2C","2D","2E","3C","3F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["5C","5F","6D","6F","7B","7F"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8B","10B","10F"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 16
+  },
+  "C8Mr4": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1C","2A","2B","3A","3C","3F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["5A","6A","7A","7B","7C"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["10A","10B","10C","10D"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 15
+  },
+  "L2Rt5": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1F","2C","3D"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["5A","5D","6E","7C"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8A","10D","10E"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 10
+  },
+  "P3Js9": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["2D","2E","2F","3F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["5A","5B","7A","7B"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8A","9B","9C","9D","9E","10C"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 14
+  },
+  "K6Gw3": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1B","2C","3B","3F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["4B","5A","5F","6A","7C"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["9D","10C","10D","10F"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 13
+  },
+  "Q8Bq7": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["2B","2E","3C","3E","3F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["4B","6B","7D","7F"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["9A","9B","9D","10F"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 15
+  },
+  "J2Tp9": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1F","2C","2E","3F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["5B","6D","7B","8D"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8B","8F","9A","9F","10B","10D"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 14
+  },
+  "H4Gx2": {
+    "front": {
+      "total_seats": ["1A","1B","1C","1D","1E","1F",
+        "2A","2B","2C","2D","2E","2F",
+        "3A","3B","3C","3D","3E","3F"],
+      "free_seats": ["1A","1D","2B","3C","3F"],
+      "price": 100
+    },
+    "center": {
+      "total_seats": ["4A","4B","4C","4D","4E","4F",
+        "5A","5B","5C","5D","5E","5F",
+        "6A","6B","6C","6D","6E","6F",
+        "7A","7B","7C","7D","7E","7F"],
+      "free_seats": ["4C","4F","5A","5D","6D","7A","7B","7D"],
+      "price": 120
+    },
+    "back": {
+      "total_seats": ["8A","8B","8C","8D","8E","8F",
+        "9A","9B","9C","9D","9E","9F",
+        "10A","10B","10C","10D","10E","10F"],
+      "free_seats": ["8A","8F","9F","10A","10C","10F"],
+      "price": 80
+    },
+    "total_seats": 60,
+    "free_seats": 19
+  }
+}
