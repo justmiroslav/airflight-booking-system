@@ -1,72 +1,72 @@
 {
   "Kyiv": {
     "Istanbul": {
-      "monday": {
+      "Monday": {
         "K3Ri7": "10:45",
         "J6Fh2": "21:15"
       },
-      "tuesday": {},
-      "wednesday": {
+      "Tuesday": {},
+      "Wednesday": {
         "J6Fh2": "09:15",
         "T9Cs3": "19:30"
       },
-      "thursday": {},
-      "friday": {
+      "Thursday": {},
+      "Friday": {
         "P7Qm1": "14:15"
       },
-      "saturday": {
+      "Saturday": {
         "T9Cs3": "11:30"
       },
-      "sunday": {}
+      "Sunday": {}
     },
     "Milan": {
-      "monday": {
+      "Monday": {
         "F8Jk9": "07:00",
         "N2Po6": "13:42"
       },
-      "tuesday": {},
-      "wednesday": {},
-      "thursday": {
+      "Tuesday": {},
+      "Wednesday": {},
+      "Thursday": {
         "N2Po6": "11:24",
         "T1Lg8": "19:06"
       },
-      "friday": {
+      "Friday": {
         "F8Jk9": "09:30"
       },
-      "saturday": {
+      "Saturday": {
         "T1Lg8": "17:48"
       },
-      "sunday": {}
+      "Sunday": {}
     },
     "Frankfurt": {
-      "monday": {},
-      "tuesday": {
+      "Monday": {},
+      "Tuesday": {
         "B2Dq3": "10:00",
         "W5Es4": "12:06"
       },
-      "wednesday": {},
-      "thursday": {},
-      "friday": {
+      "Wednesday": {},
+      "Thursday": {},
+      "Friday": {
         "W5Es4": "09:00"
       },
-      "saturday": {
+      "Saturday": {
         "B2Dq3": "14:30"
       },
-      "sunday": {}
+      "Sunday": {}
     },
     "Warsaw": {
-      "monday": {},
-      "tuesday": {},
-      "wednesday": {},
-      "thursday": {
+      "Monday": {},
+      "Tuesday": {},
+      "Wednesday": {},
+      "Thursday": {
         "Y9La8": "11:15",
         "R4Wt6": "12:45"
       },
-      "friday": {},
-      "saturday": {
+      "Friday": {},
+      "Saturday": {
         "R4Wt6": "09:00"
       },
-      "sunday": {
+      "Sunday": {
         "Y9La8": "17:45"
       }
     }
@@ -74,213 +74,213 @@
 
   "Istanbul": {
     "Kyiv": {
-      "monday": {},
-      "tuesday": {
+      "Monday": {},
+      "Tuesday": {
         "T9Cs3": "10:00",
         "J6Fh2": "16:15"
       },
-      "wednesday": {
+      "Wednesday": {
         "P7Qm1": "21:45"
       },
-      "thursday": {
+      "Thursday": {
         "K3Ri7": "15:15"
       },
-      "friday": {
+      "Friday": {
         "T9Cs3": "20:00"
       },
-      "saturday": {
+      "Saturday": {
         "J6Fh2": "12:00"
       },
-      "sunday": {}
+      "Sunday": {}
     },
     "Milan": {
-      "monday": {},
-      "tuesday": {},
-      "wednesday": {
+      "Monday": {},
+      "Tuesday": {},
+      "Wednesday": {
         "S3Jn2": "12:54",
         "E3Jd7": "14:48"
       },
-      "thursday": {},
-      "friday": {
+      "Thursday": {},
+      "Friday": {
         "X1Zq4": "10:15"
       },
-      "saturday": {
+      "Saturday": {
         "G7Bp5": "12:30"
       },
-      "sunday": {}
+      "Sunday": {}
     },
     "Frankfurt": {
-      "monday": {
+      "Monday": {
         "M6Qr9": "08:00"
       },
-      "tuesday": {
+      "Tuesday": {
         "D5Fk7": "12:12"
       },
-      "wednesday": {},
-      "thursday": {
+      "Wednesday": {},
+      "Thursday": {
         "M6Qr9": "11:30"
       },
-      "friday": {},
-      "saturday": {
+      "Friday": {},
+      "Saturday": {
         "D5Fk7": "17:30"
       },
-      "sunday": {}
+      "Sunday": {}
     },
     "Warsaw": {
-      "monday": {
+      "Monday": {
         "V3Sp1": "16:30"
       },
-      "tuesday": {},
-      "wednesday": {
+      "Tuesday": {},
+      "Wednesday": {
         "C8Mr4": "14:03"
       },
-      "thursday": {},
-      "friday": {
+      "Thursday": {},
+      "Friday": {
         "V3Sp1": "11:15"
       },
-      "saturday": {
+      "Saturday": {
         "C8Mr4": "08:45"
       },
-      "sunday": {}
+      "Sunday": {}
     }
   },
 
   "Milan": {
     "Kyiv": {
-      "monday": {},
-      "tuesday": {
+      "Monday": {},
+      "Tuesday": {
         "N2Po6": "08:24",
         "F8Jk9": "14:24"
       },
-      "wednesday": {
+      "Wednesday": {
         "T1Lg8": "11:06",
         "N2Po6": "17:06"
       },
-      "thursday": {},
-      "friday": {
+      "Thursday": {},
+      "Friday": {
         "T1Lg8": "15:30"
       },
-      "saturday": {
+      "Saturday": {
         "F8Jk9": "11:42"
       },
-      "sunday": {}
+      "Sunday": {}
     },
     "Istanbul": {
-      "monday": {
+      "Monday": {
         "G7Bp5": "19:00"
       },
-      "tuesday": {
+      "Tuesday": {
         "X1Zq4": "17:12"
       },
-      "wednesday": {},
-      "thursday": {},
-      "friday": {
+      "Wednesday": {},
+      "Thursday": {},
+      "Friday": {
         "S3Jn2": "09:15"
       },
-      "saturday": {},
-      "sunday": {
+      "Saturday": {},
+      "Sunday": {
         "E3Jd7": "19:45"
       }
     },
     "Frankfurt": {
-      "monday": {
+      "Monday": {
         "L2Rt5": "14:30",
         "P3Js9": "16:00"
       },
-      "tuesday": {},
-      "wednesday": {},
-      "thursday": {
+      "Tuesday": {},
+      "Wednesday": {},
+      "Thursday": {
         "P3Js9": "20:15"
       },
-      "friday": {},
-      "saturday": {
+      "Friday": {},
+      "Saturday": {
         "L2Rt5": "09:00"
       },
-      "sunday": {}
+      "Sunday": {}
     },
     "Warsaw": {
-      "monday": {
+      "Monday": {
         "K6Gw3": "18:00"
       },
-      "tuesday": {},
-      "wednesday": {
+      "Tuesday": {},
+      "Wednesday": {
         "Q8Bq7": "09:45"
       },
-      "thursday": {},
-      "friday": {
+      "Thursday": {},
+      "Friday": {
         "K6Gw3": "07:45"
       },
-      "saturday": {
+      "Saturday": {
         "Q8Bq7": "11:15"
       },
-      "sunday": {}
+      "Sunday": {}
     }
   },
 
   "Frankfurt": {
     "Kyiv": {
-      "monday": {},
-      "tuesday": {},
-      "wednesday": {
+      "Monday": {},
+      "Tuesday": {},
+      "Wednesday": {
         "B2Dq3": "10:06",
         "W5Es4": "12:06"
       },
-      "thursday": {},
-      "friday": {},
-      "saturday": {
+      "Thursday": {},
+      "Friday": {},
+      "Saturday": {
         "W5Es4": "11:00"
       },
-      "sunday": {
+      "Sunday": {
         "B2Dq3": "18:30"
       }
     },
     "Istanbul": {
-      "monday": {
+      "Monday": {
         "D5Fk7": "09:42"
       },
-      "tuesday": {
+      "Tuesday": {
         "M6Qr9": "12:54"
       },
-      "wednesday": {},
-      "thursday": {
+      "Wednesday": {},
+      "Thursday": {
         "D5Fk7": "20:00"
       },
-      "friday": {},
-      "saturday": {
+      "Friday": {},
+      "Saturday": {
         "M6Qr9": "14:00"
       },
-      "sunday": {}
+      "Sunday": {}
     },
     "Milan": {
-      "monday": {},
-      "tuesday": {},
-      "wednesday": {
+      "Monday": {},
+      "Tuesday": {},
+      "Wednesday": {
         "P3Js9": "15:45"
       },
-      "thursday": {
+      "Thursday": {
         "L2Rt5": "14:15"
       },
-      "friday": {},
-      "saturday": {
+      "Friday": {},
+      "Saturday": {
         "P3Js9": "12:30"
       },
-      "sunday": {
+      "Sunday": {
         "L2Rt5": "17:45"
       }
     },
     "Warsaw": {
-      "monday": {
+      "Monday": {
         "J2Tp9": "13:15"
       },
-      "tuesday": {},
-      "wednesday": {},
-      "thursday": {},
-      "friday": {
+      "Tuesday": {},
+      "Wednesday": {},
+      "Thursday": {},
+      "Friday": {
         "H4Gx2": "08:30",
         "J2Tp9": "09:48"
       },
-      "saturday": {},
-      "sunday": {
+      "Saturday": {},
+      "Sunday": {
         "H4Gx2": "16:15"
       }
     }
@@ -288,69 +288,69 @@
 
   "Warsaw": {
     "Kyiv": {
-      "monday": {},
-      "tuesday": {
+      "Monday": {},
+      "Tuesday": {
         "R4Wt6": "13:15",
         "Y9La8": "14:45"
       },
-      "wednesday": {},
-      "thursday": {},
-      "friday": {
+      "Wednesday": {},
+      "Thursday": {},
+      "Friday": {
         "R4Wt6": "19:15"
       },
-      "saturday": {
+      "Saturday": {
         "Y9La8": "12:00"
       },
-      "sunday": {}
+      "Sunday": {}
     },
     "Istanbul": {
-      "monday": {
+      "Monday": {
         "C8Mr4": "10:30"
       },
-      "tuesday": {
+      "Tuesday": {
         "V3Sp1": "17:09"
       },
-      "wednesday": {},
-      "thursday": {
+      "Wednesday": {},
+      "Thursday": {
         "C8Mr4": "14:21"
       },
-      "friday": {},
-      "saturday": {},
-      "sunday": {
+      "Friday": {},
+      "Saturday": {},
+      "Sunday": {
         "V3Sp1": "10:30"
       }
     },
     "Milan": {
-      "monday": {},
-      "tuesday": {
+      "Monday": {},
+      "Tuesday": {
         "K6Gw3": "15:00"
       },
-      "wednesday": {},
-      "thursday": {},
-      "friday": {
+      "Wednesday": {},
+      "Thursday": {},
+      "Friday": {
         "Q8Bq7": "13:00"
       },
-      "saturday": {
+      "Saturday": {
         "K6Gw3": "19:15"
       },
-      "sunday": {
+      "Sunday": {
         "Q8Bq7": "17:45"
       }
     },
     "Frankfurt": {
-      "monday": {
+      "Monday": {
         "H4Gx2": "16:00"
       },
-      "tuesday": {},
-      "wednesday": {
+      "Tuesday": {},
+      "Wednesday": {
         "J2Tp9": "14:42"
       },
-      "thursday": {},
-      "friday": {},
-      "saturday": {
+      "Thursday": {},
+      "Friday": {},
+      "Saturday": {
         "H4Gx2": "11:15"
       },
-      "sunday": {
+      "Sunday": {
         "J2Tp9": "18:45"
       }
     }

@@ -21,7 +21,7 @@ public:
 
     void writeJsonData(const json& data) {
         ofstream file(filename_);
-        file << data.dump();
+        file << data.dump(2);
         file.close();
     }
 private:
@@ -146,6 +146,47 @@ public:
             return "Seat is taken";
         }
     }
+
+    string ticketInfo(const string& ticketId, bool username) {
+        json ticketDetails = ticketInfo_[ticketId];
+        if (!ticketDetails.is_null()) {
+            string result;
+            if (username) {
+                for (const auto& userTickets : userTickets_.items()) {
+                    if (find(userTickets.value().begin(), userTickets.value().end(), ticketId) != userTickets.value().end()) {
+                        result += "Information about ticket " + ticketId + ", bought by " + userTickets.key() + ":\n";
+                    }
+                }
+            } else {
+                result += "Information about ticket " + ticketId + ":\n";
+            }
+            result += "Route: " + ticketDetails["cities"][0].get<string>() + " - " + ticketDetails["cities"][1].get<string>() + ";\n";
+            result += "Date: " + ticketDetails["date"][0].get<string>() + ", " + ticketDetails["date"][1].get<string>() + ";\n";
+            result += "Seat Info: PlaneId - " + ticketDetails["seatInfo"][0].get<string>() + ", Place - " + ticketDetails["seatInfo"][1].get<string>() + ", Price - " + to_string(ticketDetails["seatInfo"][2].get<int>()) + "$.";
+            return result;
+        } else {
+            return "Ticket not found";
+        }
+    }
+
+    string userTickets(const string& username) {
+        json ticketIds = userTickets_[username];
+        if (!ticketIds.is_null()) {
+            string result = "Tickets bought by " + username + ":\n\n";
+            int ticketCount = ticketIds.size();
+            int currentTicket = 1;
+            for (const auto& ticketId : ticketIds) {
+                result += ticketInfo(ticketId.get<string>(), false) + "\n";
+                if (currentTicket < ticketCount) {
+                    result += "\n";
+                }
+                currentTicket++;
+            }
+            return result;
+        } else {
+            return "No tickets found for the user";
+        }
+    }
 private:
     FlightSchedule flightSchedule_;
     Airplane airplane_;
@@ -160,10 +201,10 @@ int main() {
     Airplane airplane(planeDataHandler);
     Ticket ticket(flightSchedule, airplane);
     int command;
-    string city1, city2, planeId, time, seat, username;
+    string city1, city2, planeId, time, seat, username, Id;
     cout << "\n--Welcome to the Osta transportation company!--\n" << endl;
     while (true) {
-        cout << "Enter 1 to check available planes/2 to check seats/3 to book a seat/4 to stop the program:" << endl;
+        cout << "1-Planes/2-Seats/3-Book seat/4-Ticket info/5-User tickets/6-Stop the program:" << endl;
         cin >> command;
         cin.ignore();
         if (command == 1) {
@@ -193,6 +234,16 @@ int main() {
             string ticketId = ticket.bookSeat(planeId, time, seat, username);
             cout << "TicketId: " << ticketId << endl;
         } else if (command == 4) {
+            cout << "Enter Ticket ID:" << endl;
+            getline(cin, Id);
+            string ticketDetails = ticket.ticketInfo(Id, true);
+            cout << ticketDetails << endl;
+        } else if (command == 5) {
+            cout << "Enter username:" << endl;
+            getline(cin, username);
+            string userTicketsDetails = ticket.userTickets(username);
+            cout << userTicketsDetails << endl;
+        } else if (command == 6) {
             cout << "Program stopped" << endl;
             break;
         } else {
