@@ -106,6 +106,32 @@ public:
         }
     }
 
+    string findZoneBySeat(const string& planeId, const string& seat) {
+        json planeInfo = planeDataHandler_.loadJsonData();
+        for (const auto& zone : {"front", "center", "back"}) {
+            json& freeSeats = planeInfo[planeId][zone]["free_seats"];
+            if (find(freeSeats.begin(), freeSeats.end(), seat) != freeSeats.end()) {
+                return zone;
+            }
+        }
+        return "Seat not found";
+    }
+
+    static bool seatComparator(const string& seat1, const string& seat2) {
+        int num1 = stoi(seat1.substr(0, seat1.size() - 1));
+        int num2 = stoi(seat2.substr(0, seat2.size() - 1));
+        return num1 < num2;
+    }
+
+    void refundUpdateFile(const string& planeId, const string& zone, const string& seat) {
+        json planeInfo = planeDataHandler_.loadJsonData();
+        json& freeSeats = planeInfo[planeId][zone]["free_seats"];
+        freeSeats.push_back(seat);
+        sort(freeSeats.begin(), freeSeats.end(), seatComparator);
+        planeInfo[planeId]["free_seats"] = planeInfo[planeId]["free_seats"].get<int>() + 1;
+        planeDataHandler_.writeJsonData(planeInfo);
+    }
+
 private:
     FileHandler planeDataHandler_;
 };
@@ -126,6 +152,8 @@ public:
         if (price != 0) {
             json flightDetails = flightSchedule_.getFlightDetails(planeId, time);
             json seatsInfo = airplane_.checkSeats(planeId);
+            string zone = airplane_.findZoneBySeat(planeId, seat);
+            seatsByZone_[zone].push_back(seat);
             airplane_.updateFile(planeId, seat);
             string ticketId;
             while (true) {
@@ -187,11 +215,44 @@ public:
             return "No tickets found for the user";
         }
     }
+
+    string refund(const string& ticketId) {
+        if (ticketInfo_.find(ticketId) != ticketInfo_.end()) {
+            string zone;
+            json ticketDetails = ticketInfo_[ticketId];
+            string planeId = ticketDetails["seatInfo"][0].get<string>();
+            string seat = ticketDetails["seatInfo"][1].get<string>();
+            string price = to_string(ticketDetails["seatInfo"][2].get<int>());
+            for (const auto& zoneSeats : seatsByZone_.items()) {
+                if (find(zoneSeats.value().begin(), zoneSeats.value().end(), seat) != zoneSeats.value().end()) {
+                    zone = zoneSeats.key();
+                    zoneSeats.value().erase(find(zoneSeats.value().begin(), zoneSeats.value().end(), seat));
+                }
+            }
+            airplane_.refundUpdateFile(planeId, zone, seat);
+            ticketInfo_.erase(ticketId);
+            string username;
+            for (const auto& userTickets : userTickets_.items()) {
+                if (find(userTickets.value().begin(), userTickets.value().end(), ticketId) != userTickets.value().end()) {
+                    username = userTickets.key();
+                    userTickets.value().erase(find(userTickets.value().begin(), userTickets.value().end(), ticketId));
+                    if (userTickets.value().empty()) {
+                        userTickets_.erase(username);
+                    }
+                    break;
+                }
+            }
+            return "Confirmed refund of " + price + "$ for " + username;
+        } else {
+            return "Ticket not found";
+        }
+    }
 private:
     FlightSchedule flightSchedule_;
     Airplane airplane_;
     json ticketInfo_;
     json userTickets_;
+    json seatsByZone_;
 };
 
 int main() {
@@ -204,7 +265,7 @@ int main() {
     string city1, city2, planeId, time, seat, username, Id;
     cout << "\n--Welcome to the Osta transportation company!--\n" << endl;
     while (true) {
-        cout << "1-Planes/2-Seats/3-Book seat/4-Ticket info/5-User tickets/6-Stop the program:" << endl;
+        cout << "1-Planes/2-Seats/3-Book seat/4-Refund/5-Ticket info/6-User tickets/7-Stop the program:" << endl;
         cin >> command;
         cin.ignore();
         if (command == 1) {
@@ -236,14 +297,19 @@ int main() {
         } else if (command == 4) {
             cout << "Enter Ticket ID:" << endl;
             getline(cin, Id);
+            string refundDetails = ticket.refund(Id);
+            cout << refundDetails << endl;
+        } else if (command == 5) {
+            cout << "Enter Ticket ID:" << endl;
+            getline(cin, Id);
             string ticketDetails = ticket.ticketInfo(Id, true);
             cout << ticketDetails << endl;
-        } else if (command == 5) {
+        } else if (command == 6) {
             cout << "Enter username:" << endl;
             getline(cin, username);
             string userTicketsDetails = ticket.userTickets(username);
             cout << userTicketsDetails << endl;
-        } else if (command == 6) {
+        } else if (command == 7) {
             cout << "Program stopped" << endl;
             break;
         } else {
