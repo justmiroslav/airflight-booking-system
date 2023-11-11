@@ -255,6 +255,16 @@ private:
     json seatsByZone_;
 };
 
+enum Commands {
+    Planes = 1,
+    Seats = 2,
+    BookSeat = 3,
+    Refund = 4,
+    TicketInfo = 5,
+    UserTickets = 6,
+    Stop = 7
+};
+
 int main() {
     FileHandler flightDataHandler(R"(C:\Users\Admin\CLionProjects\first-oop-project\flightData.json)");
     FileHandler planeDataHandler(R"(C:\Users\Admin\CLionProjects\first-oop-project\planeData.json)");
@@ -268,7 +278,7 @@ int main() {
         cout << "1-Planes/2-Seats/3-Book seat/4-Refund/5-Ticket info/6-User tickets/7-Stop the program:" << endl;
         cin >> command;
         cin.ignore();
-        if (command == 1) {
+        if (command == Planes) {
             cout << "Available cities: Kyiv, Warsaw, Istanbul, Milan, Frankfurt" << endl;
             cout << "Enter departure city: " << endl;
             getline(cin, city1);
@@ -278,12 +288,12 @@ int main() {
                 json planes = flightSchedule.checkPlanes(city1, city2);
                 cout << "Available flights between " << city1 << " and " << city2 << ": " << planes << endl;
             }
-        } else if (command == 2) {
+        } else if (command == Seats) {
             cout << "Enter planeId:" << endl;
             getline(cin, planeId);
             json seatsInfo = airplane.checkSeats(planeId);
             cout << "Seats information:" << seatsInfo << endl;
-        } else if (command == 3) {
+        } else if (command == BookSeat) {
             cout << "Enter planeId:" << endl;
             getline(cin, planeId);
             cout << "Enter time:" << endl;
@@ -294,22 +304,22 @@ int main() {
             getline(cin, username);
             string ticketId = ticket.bookSeat(planeId, time, seat, username);
             cout << "TicketId: " << ticketId << endl;
-        } else if (command == 4) {
+        } else if (command == Refund) {
             cout << "Enter Ticket ID:" << endl;
             getline(cin, Id);
             string refundDetails = ticket.refund(Id);
             cout << refundDetails << endl;
-        } else if (command == 5) {
+        } else if (command == TicketInfo) {
             cout << "Enter Ticket ID:" << endl;
             getline(cin, Id);
             string ticketDetails = ticket.ticketInfo(Id, true);
             cout << ticketDetails << endl;
-        } else if (command == 6) {
+        } else if (command == UserTickets) {
             cout << "Enter username:" << endl;
             getline(cin, username);
             string userTicketsDetails = ticket.userTickets(username);
             cout << userTicketsDetails << endl;
-        } else if (command == 7) {
+        } else if (command == Stop) {
             cout << "Program stopped" << endl;
             break;
         } else {
